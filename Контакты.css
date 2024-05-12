@@ -1,14 +1,14 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1377px;
+  min-height: 2018px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 19px auto 0 0;
+  margin: 15px auto 0 0;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 21px auto 0 0;
 }
 
@@ -25,11 +25,30 @@
 .u-section-1 .u-map-1 {
   width: 1016px;
   height: 565px;
-  margin: 42px auto 60px;
+  margin: 42px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  margin: 44px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 511px;
+  width: 1054px;
+  margin: 19px auto 60px;
+}
+
+.u-section-1 .u-btn-3 {
+  background-image: none;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-map-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-form-1 {
     width: 940px;
   }
 }
@@ -38,16 +57,28 @@
   .u-section-1 .u-map-1 {
     width: 720px;
   }
+
+  .u-section-1 .u-form-1 {
+    width: 720px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-map-1 {
     width: 540px;
   }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-map-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-form-1 {
     width: 340px;
   }
 }
